@@ -1,0 +1,12 @@
+{
+  "name": "openrouter-1h-cache-proxy",
+  "version": "1.0.0",
+  "description": "Proxy that rewrites Anthropic cache_control blocks to ttl 1h before forwarding to OpenRouter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
